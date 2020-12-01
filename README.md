@@ -8,11 +8,11 @@ The intention of this application is to allow the user to be able to use node.js
 
 
 # Installation
-1.Download and install node.js.
-2.Download this app.
-3.Under this app forlder, use `npm install` command to install all required node modules
+* Download and install node.js.
+* Download this app.
+* Under this app forlder, use `npm install` command to install all required node modules
 
-[Tutorial](https://www.youtube.com/watch?v=_u_ce1Z9MMQ&feature=youtu.be)
+[Click here to see walkthrough video](https://www.youtube.com/watch?v=_u_ce1Z9MMQ&feature=youtu.be)
 
 # Usage
 This application is used for:   This application is used for: This application is used for: This app is used for creating a README.md file for any project.
