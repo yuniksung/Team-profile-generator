@@ -21,8 +21,8 @@ This application is used for:   This application is used for: This application i
 This project is licensed under the MIT license.
 
 # Contributor
-Contributor: Yunik Sung
-Emain Address: yuniksung@gmail.com
+* Contributor: Yunik Sung
+* Email Address: yuniksung@gmail.com
 
 # Test
 To run the test, please put the following command in your terminal: node index.js
