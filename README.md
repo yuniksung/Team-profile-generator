@@ -10,7 +10,8 @@ The intention of this application is to allow the user to be able to use node.js
 # Installation
 * Download and install node.js.
 * Download this app.
-* Under this app forlder, use `npm install` command to install all required node modules
+* Under this app forlder, use `npm install` command to install all required node modules.
+* Use 'npm install jest --save-dev' command to run the program.
 
 [Click here to see walkthrough video](https://www.youtube.com/watch?v=_u_ce1Z9MMQ&feature=youtu.be)
 
