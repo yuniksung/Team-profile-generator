@@ -11,7 +11,7 @@ The intention of this application is to allow the user to be able to use node.js
 * Download and install node.js.
 * Download this app.
 * Under this app forlder, use `npm install` command to install all required node modules.
-* Use 'npm install jest --save-dev' command to run the program.
+* Use `npm install jest --save-dev` command to run the program.
 
 [Click here to see walkthrough video](https://www.youtube.com/watch?v=_u_ce1Z9MMQ&feature=youtu.be)
 
@@ -26,7 +26,7 @@ This project is licensed under the MIT license.
 * Email Address: yuniksung@gmail.com
 
 # Test
-To run the test, please put the following command in your terminal: node index.js
+To run the test, please put the following command in your terminal: `node index.js`
 
 # Questions
 If you have any questions about the repo, open an issue or contact Yunik Sung directly yuniksung@gmail.com.
