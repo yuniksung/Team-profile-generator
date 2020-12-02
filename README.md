@@ -10,11 +10,11 @@ The intention of this application is to allow the user to be able to use node.js
 
 
 # Installation
-1.Download and install node.js.
-2.Download this app.
-3.Under this app forlder, use `npm install` command to install all required node modules
+* Download and install node.js.
+* Download this app.
+* Under this app forlder, use `npm install` command to install all required node modules
 
-[Tutorial](https://www.youtube.com/watch?v=MVv3arA1qP0&feature=youtu.be)
+[To watch the walkthrough video, please click here](https://www.youtube.com/watch?v=MVv3arA1qP0&feature=youtu.be)
 
 # Usage
 This application is used for:   This application is used for: This application is used for: This app is used for creating a README.md file for any project.
@@ -23,8 +23,8 @@ This application is used for:   This application is used for: This application i
 This project is licensed under the MIT license.
 
 # Contributor
-Contributor: Yunik Sung
-Emain Address: yuniksung@gmail.com
+* Contributor: Yunik Sung
+* Email: yuniksung@gmail.com
 
 # Test
 To run the test, please put the following command in your terminal: node index.js
