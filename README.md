@@ -6,7 +6,7 @@
 The intention of this application is to allow the user to be able to use node.js package in order to generate an HTML that shows members of a workplace team's basic info (name, ID, email, etc).
 
 ### Screenshot
-![](../screenshot.jpg)
+![](screenshot.jpg)
 
 
 # Installation
