@@ -16,9 +16,6 @@ The intention of this application is to allow the user to be able to use node.js
 
 [To watch the walkthrough video, please click here](https://www.youtube.com/watch?v=MVv3arA1qP0&feature=youtu.be)
 
-# Usage
-This application is used for:   This application is used for: This application is used for: This app is used for creating a README.md file for any project.
-
 # License
 This project is licensed under the MIT license.
 
