@@ -55,6 +55,19 @@ body{
     background-color: #ffdccc;
 }
 
+/* Manager's card */
+.manager-name{
+    background-color: rgb(199, 255, 199);
+}
+
+.engineer-name{
+    background-color: rgb(199, 219, 255);
+}
+
+.intern-name{
+    background-color:rgb(255, 199, 227);
+}
+
 
 
 /* Name */
@@ -62,7 +75,7 @@ body{
     width: 95%;
     padding: 5px;
     margin: 0 auto;
-    background-color:#feffd7;
+    /* background-color:#feffd7; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -104,15 +117,6 @@ body{
 }
 
 .emp-emial-text:hover{
-    color: rgb(0, 162, 255);
-}
-
-.github{
-    text-decoration: none;
-    transition: 0.3s;
-}
-
-.github:hover{
     color: rgb(0, 162, 255);
 }
 

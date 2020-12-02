@@ -102,7 +102,7 @@ const questions = {
         {
             type: 'input',
             name: 'schoolName',
-            message: " Please provide name of the school for intern",
+            message: " Please provide name of the school he/she attending",
             validate: function (value) {
                 if (value) {
                     return true;
@@ -174,7 +174,7 @@ const addManager = () => {
         .then(answers => {
             const manager = new Manager(answers.name, answers.id, answers.email, answers.officeNumber);
             employees.push(manager);
-            addEmployee();
+            addNew();
         });
 };
 
@@ -184,7 +184,7 @@ const addEngineer = () => {
         .then(answers => {
             const engineer = new Engineer(answers.name, answers.id, answers.email, answers.github);
             employees.push(engineer);
-            addEmployee();
+            addNew();
         });
 };
 
@@ -194,11 +194,11 @@ const addIntern = () => {
         .then(answers => {
             const intern = new Intern(answers.name, answers.id, answers.email, answers.schoolName);
             employees.push(intern);
-            addEmployee();
+            addNew();
         });
 };
 
-const addEmployee = () => {
+const addNew = () => {
     return inquirer
         .prompt({
             type: 'list',

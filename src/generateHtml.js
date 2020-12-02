@@ -30,7 +30,7 @@ module.exports = (employeeHtml) => {
 const generateHtml = (employees) => {
     console.log('employees:', employees);
 
-    const createManager = (manager) => {
+    const managerCard = (manager) => {
         return `
         <div class="card-container">
             <div class="employee-name manager-name">
@@ -53,10 +53,10 @@ const generateHtml = (employees) => {
 };
 
 
-const createEngineer = (engineer) => {
+const engineerCard = (engineer) => {
     return `
     <div class="card-container">
-            <div class="employee-name manager-name">
+            <div class="employee-name engineer-name">
                 <h2>${engineer.getName()}</h2>
                 <h5><span><i class="fas fa-cog"></i></i></span>${engineer.getRole()}</h5>
             </div>
@@ -75,10 +75,10 @@ const createEngineer = (engineer) => {
     `;
 };
 
-const createIntern = (intern) => {
+const internCard = (intern) => {
     return `
     <div class="card-container">
-        <div class="employee-name manager-name">
+        <div class="employee-name intern-name">
             <h2>${intern.getName()}</h2>
             <h5><span><i class="fas fa-user-graduate"></i></span>${intern.getRole()}</h5>
         </div>
@@ -97,12 +97,11 @@ const createIntern = (intern) => {
     `;
 };
 
+const myTeam = [];
+myTeam.push(employees.filter(employee => employee.getRole() === 'Manager').map(manager => managerCard(manager)).join(''));
+myTeam.push(employees.filter(employee => employee.getRole() === 'Engineer').map(engineer => engineerCard(engineer)).join(''));
+myTeam.push(employees.filter(employee => employee.getRole() === 'Intern').map(intern => internCard(intern)).join(''));
 
-const team = [];
-team.push(employees.filter(employee => employee.getRole() === 'Manager').map(manager => createManager(manager)).join(''));
-team.push(employees.filter(employee => employee.getRole() === 'Engineer').map(engineer => createEngineer(engineer)).join(''));
-team.push(employees.filter(employee => employee.getRole() === 'Intern').map(intern => createIntern(intern)).join(''));
-
-return team.join('');
+return myTeam.join('');
 
 };

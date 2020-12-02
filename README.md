@@ -3,8 +3,10 @@
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Description
-
 The intention of this application is to allow the user to be able to use node.js package in order to generate an HTML that shows members of a workplace team's basic info (name, ID, email, etc).
+
+### Screenshot
+![](../screenshot.jpg)
 
 
 # Installation
@@ -12,7 +14,7 @@ The intention of this application is to allow the user to be able to use node.js
 2.Download this app.
 3.Under this app forlder, use `npm install` command to install all required node modules
 
-[Tutorial](https://www.youtube.com/watch?v=_u_ce1Z9MMQ&feature=youtu.be)
+[Tutorial](https://youtu.be/MVv3arA1qP0)
 
 # Usage
 This application is used for:   This application is used for: This application is used for: This app is used for creating a README.md file for any project.
